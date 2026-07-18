@@ -37,3 +37,9 @@
   height: 40px;
   margin: -15px;
 }
+
+.chat-message-time {
+  font-size: 14px;
+  color: rgb(120, 120, 120);
+  margin-top: 5px;
+}
