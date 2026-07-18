@@ -5,8 +5,6 @@ import "./ChatMessage.css";
 export function ChatMessage({ message, sender, time }) {
 
 
-
-  console.log(time)
   return (
     <div
       className={sender === "user" ? "chat-message-user" : "chat-message-robot"}
