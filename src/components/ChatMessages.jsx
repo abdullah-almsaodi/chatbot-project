@@ -19,6 +19,7 @@ export function ChatMessages({ chatMessages }) {
         return (
           <ChatMessage
             key={chatMessage.id}
+            time={chatMessage.time}
             message={chatMessage.message}
             sender={chatMessage.sender}
           />
